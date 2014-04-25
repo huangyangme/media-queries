@@ -1,0 +1,105 @@
+
+/*根据网页宽度（渲染界面的宽度）的响应式，遵循 Mobile First*/
+
+@media only screen and (max-width: 400px) {
+
+}
+
+@media only screen and (max-width: 640px) { 
+
+}
+
+@media only screen and (max-width: 800px) { 
+
+}
+
+@media only screen and (max-width: 1024px) { 
+
+}
+
+@media only screen and (max-width: 1280px) { 
+
+}
+
+@media only screen and (max-width: 1366px) { 
+
+}
+
+@media only screen and (max-width: 1440px) { 
+
+}
+
+@media only screen and (max-width: 1920px) { 
+
+}
+
+@media only screen and (min-width: 1921px) { 
+
+}
+
+
+
+/*根据设备*/
+
+/*
+	## 智能手机
+	目前主流智能手机的设备物理宽度（device width）在 320px ~ 400px 之间。[http://screensiz.es/phone]
+	Smart Phone(device width:From 320px To 400px)
+*/
+
+/*竖屏模式（肖像模式）*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 400px) and (orientation : landscape){
+	/*Your Style…*/
+}
+
+/*横屏模式（景观模式）*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 400px) and (orientation : portrait){
+	/*Your Style…*/
+}
+
+
+
+/*
+	## 平板
+	目前主流智能手机的设备宽度（device width）在 533px ~ 1024px 之间。[http://screensiz.es/phone]
+	Tablets(device width:From 533px To 1024px)
+*/
+
+/*竖屏模式（肖像模式）*/
+@media only screen and (min-device-width: 533px) and (max-device-width: 1024px) and (orientation : landscape){
+	/*Your Style…*/
+}
+
+/*横屏模式（景观模式）*/
+@media only screen and (min-device-width: 533px) and (max-device-width: 1024px) and (orientation : portrait){
+	/*Your Style…*/
+}
+
+
+
+/*
+	## 桌面显示器
+	目前主流电脑显示器的宽度（device width）在 1024px 以上。[http://screensiz.es/phone]
+	Monitors(device width: over 1024px)
+*/
+
+@media only screen and (min-device-width: 1025px) {
+	/*Your Style…*/
+}
+
+
+/*
+	## 桌面显示器（普屏）
+*/
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+	/*Your Style…*/
+}
+
+/*
+	## 桌面显示器（宽屏）
+*/
+
+@media only screen and (min-device-width: 1441px) {
+	/*Your Style…*/
+}
