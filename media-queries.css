@@ -103,3 +103,22 @@
 @media only screen and (min-device-width: 1441px) {
 	/*Your Style…*/
 }
+
+
+/* 根据像素密度 如何知道设备的 DPR？http://www.devicepixelratio.com/ */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1){
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3){
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5){
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2.0){
+
+}
