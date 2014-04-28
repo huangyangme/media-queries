@@ -1,5 +1,4 @@
-
-/*根据网页宽度（渲染界面的宽度）的响应式，遵循 Mobile First*/
+/*根据网页宽度（渲染界面的宽度）的响应式，Mobile First*/
 
 @media only screen and (max-width: 400px) {
 
@@ -49,12 +48,12 @@
 
 /*竖屏模式（肖像模式）*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 400px) and (orientation : landscape){
-	/*Your Style…*/
+
 }
 
 /*横屏模式（景观模式）*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 400px) and (orientation : portrait){
-	/*Your Style…*/
+
 }
 
 
@@ -67,12 +66,12 @@
 
 /*竖屏模式（肖像模式）*/
 @media only screen and (min-device-width: 533px) and (max-device-width: 1024px) and (orientation : landscape){
-	/*Your Style…*/
+
 }
 
 /*横屏模式（景观模式）*/
 @media only screen and (min-device-width: 533px) and (max-device-width: 1024px) and (orientation : portrait){
-	/*Your Style…*/
+
 }
 
 
@@ -84,20 +83,20 @@
 */
 
 @media only screen and (min-device-width: 1025px) {
-	/*Your Style…*/
+
 }
 
 
 /*
-	## 桌面显示器（普屏）
+	### 桌面显示器（普屏）
 */
 
 @media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
-	/*Your Style…*/
+
 }
 
 /*
-	## 桌面显示器（宽屏）
+	### 桌面显示器（宽屏）
 */
 
 @media only screen and (min-device-width: 1441px) {
