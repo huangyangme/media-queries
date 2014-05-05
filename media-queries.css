@@ -1,10 +1,26 @@
-/*根据网页宽度（渲染界面的宽度）的响应式，Mobile First*/
+/**
+ * CSS 3 Msdia Queries
+ * 
+ * Author: Huang Yang
+ * WWW: http://huangyang.me
+ * blog: http://blog.huangyang.me
+ *
+ */
+
+
+/* ==========================================================================
+   根据网页宽度（渲染界面的宽度）的响应式，Mobile First
+   ========================================================================== */
 
 @media only screen and (max-width: 400px) {
 
 }
 
 @media only screen and (max-width: 640px) { 
+	* { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; }
+}
+
+@media only screen and (max-width: 768px) { 
 
 }
 
@@ -28,23 +44,20 @@
 
 }
 
-@media only screen and (max-width: 1920px) { 
-
-}
-
-@media only screen and (min-width: 1921px) { 
+@media only screen and (max-width: 1600px) { 
 
 }
 
 
+/* ==========================================================================
+   根据设备
+   ========================================================================== */
 
-/*根据设备*/
 
-/*
-	## 智能手机
+/* 	## 智能手机
 	目前主流智能手机的设备物理宽度（device width）在 320px ~ 400px 之间。[http://screensiz.es/phone]
 	Smart Phone(device width:From 320px To 400px)
-*/
+   ========================================================================== */
 
 /*竖屏模式（肖像模式）*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 400px) and (orientation : landscape){
@@ -57,54 +70,49 @@
 }
 
 
-
-/*
-	## 平板
+/* 	## 平板
 	目前主流智能手机的设备宽度（device width）在 533px ~ 1024px 之间。[http://screensiz.es/phone]
 	Tablets(device width:From 533px To 1024px)
-*/
+   ========================================================================== */
 
-/*竖屏模式（肖像模式）*/
+/* 竖屏模式（肖像模式） */
 @media only screen and (min-device-width: 533px) and (max-device-width: 1024px) and (orientation : landscape){
 
 }
 
-/*横屏模式（景观模式）*/
+/* 横屏模式（景观模式） */
 @media only screen and (min-device-width: 533px) and (max-device-width: 1024px) and (orientation : portrait){
 
 }
 
 
-
-/*
-	## 桌面显示器
+/* ## 桌面显示器
 	目前主流电脑显示器的宽度（device width）在 1024px 以上。[http://screensiz.es/phone]
 	Monitors(device width: over 1024px)
-*/
+   ========================================================================== */
+
 
 @media only screen and (min-device-width: 1025px) {
 
 }
 
 
-/*
-	### 桌面显示器（普屏）
-*/
+/* 桌面显示器（普屏） */
 
 @media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
 
 }
 
-/*
-	### 桌面显示器（宽屏）
-*/
+/* 桌面显示器（宽屏） */
 
 @media only screen and (min-device-width: 1441px) {
-	/*Your Style…*/
+
 }
 
 
-/* 根据像素密度 如何知道设备的 DPR？http://www.devicepixelratio.com/ */
+/* ==========================================================================
+   根据像素密度 如何知道设备的 DPR？http://www.devicepixelratio.com/
+   ========================================================================== */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1){
 
@@ -115,7 +123,7 @@
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5){
-
+	/*iPhone 4(S)+ retina*/
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2.0){
