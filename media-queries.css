@@ -59,12 +59,12 @@
 	Smart Phone(device width:From 320px To 400px)
    ========================================================================== */
 
-/*竖屏模式（肖像模式）*/
+/*横屏模式（景观模式）*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 400px) and (orientation : landscape){
 
 }
 
-/*横屏模式（景观模式）*/
+/*竖屏模式（肖像模式）*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 400px) and (orientation : portrait){
 
 }
@@ -75,12 +75,12 @@
 	Tablets(device width:From 533px To 1024px)
    ========================================================================== */
 
-/* 竖屏模式（肖像模式） */
+/* 横屏模式（景观模式） */
 @media only screen and (min-device-width: 533px) and (max-device-width: 1024px) and (orientation : landscape){
 
 }
 
-/* 横屏模式（景观模式） */
+/* 竖屏模式（肖像模式） */
 @media only screen and (min-device-width: 533px) and (max-device-width: 1024px) and (orientation : portrait){
 
 }
