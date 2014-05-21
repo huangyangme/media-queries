@@ -98,13 +98,11 @@
 
 
 /* 桌面显示器（普屏） */
-
 @media only screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
 
 }
 
 /* 桌面显示器（宽屏） */
-
 @media only screen and (min-device-width: 1441px) {
 
 }
